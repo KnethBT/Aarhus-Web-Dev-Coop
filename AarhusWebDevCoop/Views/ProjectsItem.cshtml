@@ -3,5 +3,10 @@
     Layout = "Master.cshtml";
 	
 	
-	<h1>Projects Item</h1>
+	<h1 class="textHeadline">Projects Item</h1>
 }
+
+<div class="wrapper" style="height: 80%">
+	<h2 class="textHeadline">@Umbraco.Field("projecttitle")</h2>
+	<p>@Umbraco.Field("projectbody")</p>
+</div>
